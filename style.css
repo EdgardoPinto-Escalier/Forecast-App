@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  color: #211f1e;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/2/forecast/bg.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  padding-top: 100px;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: "HelveticaNeue-UltraLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  font-weight: normal;
+  margin: 0;
+  text-align: right;
+}
